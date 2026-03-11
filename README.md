@@ -1,10 +1,10 @@
-# 🛡️ Rakshak AI — Behavioral Fraud Intelligence System
+#  Rakshak AI — Behavioral Fraud Intelligence System
 
 An offline Android application that detects SMS-based fraud using behavioral pattern analysis and a community fraud reporting database.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 com.rakshak/
@@ -55,7 +55,7 @@ com.rakshak/
 
 ---
 
-## 🧠 Fraud Detection Logic
+##  Fraud Detection Logic
 
 ```
 Incoming SMS
@@ -73,9 +73,9 @@ Pattern Matching:
   • Unknown sender        (+5)
     ↓
 Risk Score (0–100):
-  0–30   = ✅ SAFE
-  31–70  = ⚠️ SUSPICIOUS
-  71–100 = 🚨 HIGH RISK
+  0–30   =  SAFE
+  31–70  =  SUSPICIOUS
+  71–100 =  HIGH RISK
     ↓
 Update ScanStats in DB (always)
     ↓
@@ -84,7 +84,7 @@ Show Notification (if Suspicious or High Risk)
 
 ---
 
-## 🗄️ Database Schema
+##  Database Schema
 
 ### fraud_reports
 | Column           | Type    | Description                         |
@@ -108,7 +108,7 @@ Show Notification (if Suspicious or High Risk)
 
 ---
 
-## 🚀 Setup Instructions
+##  Setup Instructions
 
 ### 1. Open in Android Studio
 - Open Android Studio → File → Open → select `RakshakAI/` folder
@@ -129,7 +129,7 @@ When the app launches, grant:
 
 ---
 
-## 🧪 Test Messages
+##  Test Messages
 
 Paste these in the Dashboard → "Test a Message" box:
 
@@ -154,7 +154,7 @@ Do not share with anyone. - HDFC Bank
 
 ---
 
-## 🔒 Privacy Guarantees
+##  Privacy Guarantees
 
 - ✅ **No SMS stored automatically** — messages are analyzed in memory only
 - ✅ **No external servers** — all analysis is 100% on-device
@@ -163,7 +163,7 @@ Do not share with anyone. - HDFC Bank
 
 ---
 
-## 📱 Features
+##  Features
 
 | Feature               | Status |
 |-----------------------|--------|
@@ -182,7 +182,7 @@ Do not share with anyone. - HDFC Bank
 
 ---
 
-## 📞 Helplines (built into app)
+##  Helplines (built into app)
 
 - **1930** — National Cyber Crime Helpline (24×7)  
 - **cybercrime.gov.in** — National Cybercrime Portal  
