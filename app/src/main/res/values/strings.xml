@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rakshak AI</string>
+    <string name="nav_open">Open navigation drawer</string>
+    <string name="nav_close">Close navigation drawer</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_register">Register Fraud</string>
+    <string name="title_search">Search Fraud History</string>
+    <string name="title_complaint">File Complaint</string>
+    <string name="title_call_log">Call Shield</string>
+    <string name="call_alert_title">Suspicious Call Detected</string>
+    <string name="call_permission_rationale">Phone state permission is needed to detect suspicious incoming calls</string>
+
+    <!-- Full screen alert -->
+    <string name="alert_call_terminated">🛡️ CALL AUTO-TERMINATED</string>
+    <string name="alert_call_terminated_sub">Rakshak AI ended this call to protect you</string>
+    <string name="alert_fraud_detected">🚨 FRAUD CALL DETECTED</string>
+    <string name="alert_hang_up_now">HANG UP IMMEDIATELY</string>
+    <string name="btn_hang_up">🔴 HANG UP NOW</string>
+    <string name="btn_call_ended">✓ Call Already Ended</string>
+    <string name="btn_report_cybercrime">Report to Cybercrime</string>
+    <string name="btn_dismiss">Dismiss</string>
+    <string name="label_risk_score">Risk Score</string>
+    <string name="label_reason">Why flagged</string>
+    <string name="label_never_share">⛔ NEVER share OTP, PIN or password over a call</string>
+    <string name="label_hang_up_call_back">⛔ Hang up and call back on the official number</string>
+    <string name="label_report_1930">⛔ Report: cybercrime.gov.in  |  Helpline: 1930</string>
+
+    <!-- Foreground service -->
+    <string name="service_notification_title">Rakshak AI is active</string>
+    <string name="service_notification_body">Monitoring calls and messages for fraud</string>
+    <string name="service_channel_name">Rakshak Protection Service</string>
+</resources>

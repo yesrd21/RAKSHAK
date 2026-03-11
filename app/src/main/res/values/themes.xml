@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.RakshakAI" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryVariant">@color/color_primary_dark</item>
+        <item name="colorOnPrimary">@color/color_on_primary</item>
+        <item name="colorSecondary">@color/color_accent</item>
+        <item name="colorOnSecondary">@color/color_primary</item>
+        <item name="android:colorBackground">@color/color_background</item>
+        <item name="colorSurface">@color/color_surface</item>
+        <item name="colorOnSurface">@color/color_text_primary</item>
+        <item name="android:windowBackground">@color/color_background</item>
+        <item name="android:statusBarColor">@color/color_primary_dark</item>
+        <item name="android:navigationBarColor">@color/color_primary_dark</item>
+        <!-- Chip style -->
+        <item name="chipStyle">@style/RakshakChip</item>
+    </style>
+
+    <style name="RakshakChip" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="android:textColor">@color/color_text_primary</item>
+        <item name="chipBackgroundColor">@color/color_card</item>
+        <item name="chipStrokeColor">@color/color_card_border</item>
+        <item name="chipStrokeWidth">1dp</item>
+    </style>
+
+    <!-- Full screen fraud alert — blood red, no title bar -->
+    <style name="Theme.RakshakAI.FullScreenAlert" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/color_high_risk_dark</item>
+        <item name="android:colorBackground">@color/color_high_risk_dark</item>
+        <item name="android:statusBarColor">@color/color_high_risk_dark</item>
+        <item name="android:navigationBarColor">@color/color_high_risk_dark</item>
+        <item name="colorPrimary">@color/color_high_risk</item>
+        <item name="colorOnPrimary">@color/color_on_primary</item>
+        <item name="android:windowShowAnimation">@null</item>
+    </style>
+</resources>

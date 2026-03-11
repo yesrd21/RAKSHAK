@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.rakshak.ui.dashboard.DashboardFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_dashboard"/>
+
+    <fragment
+        android:id="@+id/registerFraudFragment"
+        android:name="com.rakshak.ui.register.RegisterFraudFragment"
+        android:label="Register Fraud"
+        tools:layout="@layout/fragment_register_fraud"/>
+
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.rakshak.ui.search.SearchFragment"
+        android:label="Search Fraud History"
+        tools:layout="@layout/fragment_search"/>
+
+    <fragment
+        android:id="@+id/complaintFragment"
+        android:name="com.rakshak.ui.complaint.ComplaintFragment"
+        android:label="File Complaint"
+        tools:layout="@layout/fragment_complaint"/>
+
+    <fragment
+        android:id="@+id/callLogFragment"
+        android:name="com.rakshak.ui.calllog.CallLogFragment"
+        android:label="Call Shield"
+        tools:layout="@layout/fragment_call_log"/>
+
+
+    <fragment
+        android:id="@+id/smsHistoryFragment"
+        android:name="com.rakshak.ui.smshistory.SmsHistoryFragment"
+        android:label="Message History"
+        tools:layout="@layout/fragment_sms_history"/>
+
+</navigation>

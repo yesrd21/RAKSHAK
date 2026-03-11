@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand -->
+    <color name="color_primary">#0D1B2A</color>
+    <color name="color_primary_dark">#060D14</color>
+    <color name="color_primary_mid">#1B3A5C</color>
+    <color name="color_accent">#00D4FF</color>
+    <color name="color_accent_dim">#0099BB</color>
+
+    <!-- Risk levels -->
+    <color name="color_high_risk">#FF1744</color>
+    <color name="color_high_risk_dark">#B71C1C</color>
+    <color name="color_suspicious">#FF6D00</color>
+    <color name="color_suspicious_dark">#E65100</color>
+    <color name="color_safe">#00E676</color>
+    <color name="color_safe_dark">#1B5E20</color>
+
+    <!-- Surface -->
+    <color name="color_background">#0A0F18</color>
+    <color name="color_surface">#111927</color>
+    <color name="color_surface_elevated">#182336</color>
+    <color name="color_card">#1A2740</color>
+    <color name="color_card_border">#243550</color>
+
+    <!-- Text -->
+    <color name="color_on_primary">#FFFFFF</color>
+    <color name="color_text_primary">#E8F4FF</color>
+    <color name="color_text_secondary">#7A9CC0</color>
+    <color name="color_text_dim">#3D5A7A</color>
+
+    <!-- Gradients (used as solid fallback) -->
+    <color name="color_gradient_start">#0D1B2A</color>
+    <color name="color_gradient_end">#1B3A5C</color>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_dashboard"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:title="Dashboard"/>
+
+    <item
+        android:id="@+id/nav_register"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Register Fraud"/>
+
+    <item
+        android:id="@+id/nav_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Search Fraud History"/>
+
+    <item
+        android:id="@+id/nav_complaint"
+        android:icon="@android:drawable/ic_menu_send"
+        android:title="File Complaint"/>
+
+    <item
+        android:id="@+id/nav_call_log"
+        android:icon="@android:drawable/ic_menu_call"
+        android:title="Call Shield 📞"/>
+
+
+    <item
+        android:id="@+id/smsHistoryFragment"
+        android:icon="@android:drawable/ic_menu_recent_history"
+        android:title="Message History 📱"/>
+
+</menu>
